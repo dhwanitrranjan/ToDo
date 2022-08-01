@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react';
 import Fetch  from './Components/Fetch.js';
 import ToDo from './Components/ToDo.js';
+// import 
 
 const initialState = {
   count: 0,
@@ -48,7 +49,7 @@ function App() {
       <br/>
       <Fetch />
       <br/>
-      {/* <ToDo /> */}
+      <ToDo />
     </div>
   );
 }

@@ -26,7 +26,7 @@ const todoSlice = createSlice({
 
 export const {addItems, isCompleted} = todoSlice.actions;
 
-const store = configureStore({
+var store = configureStore({
     reducer: todoSlice.reducer
 });
 

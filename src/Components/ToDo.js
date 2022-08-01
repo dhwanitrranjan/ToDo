@@ -55,8 +55,9 @@ export default function ToDo () {
 
     return (
         <>
-            <input onChange={handleInput} value={task} placeholder="Add a Task"></input>
-            <button onClick={handleAdd}>Add</button><br/>
+            <input onChange={handleInput} value={task} placeholder="Add a Task"/>
+            <button onClick={handleAdd}>Add</button>
+            <br/>
             <button onClick={handleFilter} name="ALL">All</button>
             <button onClick={handleFilter} name="ACTIVE">Active</button>
             <button onClick={handleFilter} name="COMPLETED">Completed</button>
